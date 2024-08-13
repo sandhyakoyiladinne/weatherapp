@@ -1,0 +1,65 @@
+
+.highlights-container {
+    margin: 20px;
+    padding: 20px;
+    color: black;
+    /* background-color: rgba(60, 40, 60, 0.9); */
+
+     
+     background: linear-gradient(to bottom, rgb(220, 206, 241), rgb(237, 157, 214));
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(228, 46, 195, 0.1);
+  }
+  
+  .highlights-container h2 {
+    margin-right: 36rem;
+    margin-bottom: 35px;
+    font-size:2rem;
+    text-underline-offset: 8px;
+    text-decoration: 4px solid rgb(81, 10, 90) underline;
+
+
+  }
+  
+  .highlights-grid {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(5,1fr);
+    width: 78vw;
+    height: 60vh;
+    margin-left: 20%;
+    font-size: 25px;
+   
+    
+    
+  
+  }
+  .highlight-item {
+    flex: 1 1 calc(22% - 10px); /* Four boxes horizontally with proper gap */
+    background-color: rgb(247, 240, 246);
+    padding: 30px 30px;
+    border-radius: 20px;
+    border:2px solid rgb(65, 4, 59);
+    box-shadow: 0 0 7px rgba(36, 95, 168, 0.1);
+    text-align: center;
+    margin-bottom: 35px; /* Ensure space below each row */
+    color:rgb(143, 19, 123);
+
+  }
+  
+  .highlight-label {
+    display: block;
+    
+    text-underline-offset: 6px;
+    text-decoration: underline;
+    text-decoration-color: hsl(313, 84%, 12%) ;
+    font-size: 25px;
+    /* font-weight: bold; */
+    margin-bottom: 25px;
+  }
+  
+  .highlight-value {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
